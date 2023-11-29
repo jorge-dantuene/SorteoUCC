@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Sorteo UCC</title>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body id="page-top">
+    <header class="masthead d-flex align-items-center">
+      <ul id="listWins" class="list-group"></ul>
+
+      <div style="visibility: hidden" class="confetti-container">
+        <div class="confetti mt-5">
+          <i style="--speed: 10; --bg: yellow" class="square"></i>
+          <i style="--speed: 18; --bg: white" class="pentagram"></i>
+          <i style="--speed: 29; --bg: green" class="rectangle"></i>
+          <i style="--speed: 17; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 33; --bg: red" class="pentagram"></i>
+          <i style="--speed: 26; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 24; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 5; --bg: blue" class="wavy-line"></i>
+          <i style="--speed: 40; --bg: white" class="square"></i>
+          <i style="--speed: 17; --bg: green" class="rectangle"></i>
+          <i style="--speed: 25; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 15; --bg: yellow" class="wavy-line"> </i>
+          <i style="--speed: 32; --bg: yellow" class="pentagram"></i>
+          <i style="--speed: 25; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 37; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 23; --bg: pink" class="wavy-line"></i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 37; --bg: pink" class="wavy-line"></i>
+          <i style="--speed: 36; --bg: white" class="hexagram"></i>
+          <i style="--speed: 32; --bg: green" class="wavy-line"></i>
+          <i style="--speed: 32; --bg: yellow" class="pentagram"></i>
+          <i style="--speed: 29; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 23; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 30; --bg: pink" class="rectangle"></i>
+          <i style="--speed: 30; --bg: red" class="square"></i>
+          <i style="--speed: 18; --bg: red" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 16; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 34; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 39; --bg: pink" class="wavy-line"></i>
+          <i style="--speed: 40; --bg: purple" class="square"></i>
+          <i style="--speed: 21; --bg: green" class="rectangle"></i>
+          <i style="--speed: 14; --bg: white" class="square"></i>
+          <i style="--speed: 38; --bg: green" class="rectangle"></i>
+          <i style="--speed: 19; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 29; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 21; --bg: white" class="hexagram"></i>
+          <i style="--speed: 17; --bg: purple" class="wavy-line"></i>
+          <i style="--speed: 32; --bg: yellow" class="pentagram"></i>
+          <i style="--speed: 23; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 48; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 38; --bg: pink" class="rectangle"></i>
+          <i style="--speed: 13; --bg: red" class="pentagram"></i>
+          <i style="--speed: 49; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 19; --bg: cyan" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: steelblue" class="square"></i>
+          <i style="--speed: 10; --bg: yellow" class="square"></i>
+          <i style="--speed: 18; --bg: white" class="pentagram"></i>
+          <i style="--speed: 29; --bg: green" class="rectangle"></i>
+          <i style="--speed: 17; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 33; --bg: red" class="pentagram"></i>
+          <i style="--speed: 26; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 24; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 5; --bg: white" class="wavy-line"></i>
+          <i style="--speed: 40; --bg: purple" class="square"></i>
+          <i style="--speed: 17; --bg: green" class="rectangle"></i>
+          <i style="--speed: 25; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 15; --bg: cyan" class="wavy-line"> </i>
+          <i style="--speed: 32; --bg: yellow" class="pentagram"></i>
+          <i style="--speed: 45; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 23; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 37; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 26; --bg: white" class="hexagram"></i>
+          <i style="--speed: 32; --bg: cyan" class="wavy-line"></i>
+          <i style="--speed: 32; --bg: yellow" class="pentagram"></i>
+          <i style="--speed: 45; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 23; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 50; --bg: pink" class="rectangle"></i>
+          <i style="--speed: 30; --bg: red" class="square"></i>
+          <i style="--speed: 18; --bg: red" class="pentagram"></i>
+          <i style="--speed: 19; --bg: green" class="rectangle"></i>
+          <i style="--speed: 16; --bg: blue" class="hexagram"></i>
+          <i style="--speed: 23; --bg: red" class="pentagram"></i>
+          <i style="--speed: 33; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 39; --bg: white" class="wavy-line"></i>
+          <i style="--speed: 40; --bg: orange" class="square"></i>
+          <i style="--speed: 21; --bg: green" class="rectangle"></i>
+          <i style="--speed: 14; --bg: white" class="square"></i>
+          <i style="--speed: 38; --bg: green" class="rectangle"></i>
+          <i style="--speed: 19; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 29; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 34; --bg: white" class="hexagram"></i>
+          <i style="--speed: 17; --bg: indigo" class="wavy-line"></i>
+          <i style="--speed: 32; --bg: yellow" class="pentagram"></i>
+          <i style="--speed: 23; --bg: white" class="square"></i>
+          <i style="--speed: 18; --bg: green" class="rectangle"></i>
+          <i style="--speed: 37; --bg: red" class="dodecagram"></i>
+          <i style="--speed: 48; --bg: pink" class="wavy-line"> </i>
+          <i style="--speed: 38; --bg: pink" class="rectangle"></i>
+          <i style="--speed: 13; --bg: red" class="pentagram"></i>
+          <i style="--speed: 49; --bg: yellow" class="dodecagram"></i>
+          <i style="--speed: 19; --bg: purple" class="wavy-line"></i>
+          <i style="--speed: 15; --bg: cyan" class="square"></i>
+        </div>
+      </div>
+
+      <div class="container px-4 px-lg-5 ml-5 mt-5 text-center">
+        <div
+          style="visibility: hidden"
+          class="card text-white bg-primary mb-3"
+          style="max-width: 18rem"
+        >
+          <table class="card-body">
+            <tr>
+              <th>PUESTO</th>
+              <th>GANADOR</th>
+            </tr>
+          </table>
+        </div>
+
+        <div id="fondo" class=""></div>
+        <div id="contenedor" class="">
+          <h1 id="ganador" class="mb-3 mt-5 text-center">Sorteo UCC:</h1>
+          <p id="txt" class="mb-5 overflow-ellipsis">Participantes</p>
+          <button id="btn1" type="button" class="btn btn-primary ml-1">
+            Iniciar sorteo
+          </button>
+          <button
+            id="btn2"
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"
+          >
+            Cargar participantes
+          </button>
+          <br />
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Cargar participantes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Cerrar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <textarea
+                    id="part"
+                    class="form-control"
+                    id="message-text"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button
+                id="guardar"
+                type="button"
+                class="btn btn-primary"
+                data-bs-dismiss="modal"
+              >
+                Guardar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
